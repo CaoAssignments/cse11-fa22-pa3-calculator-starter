@@ -154,7 +154,7 @@ System.out.print(Calculator.add("5.05", "10.05")); // should print 15.1
 2. Add digits by column and keep track of the carry <br>
 ![](https://i.imgur.com/FnwYNLX.jpg)
 
-3. Compute the calculation from left to right <br>
+3. Compute the calculation from right to left <br>
 ![](https://i.imgur.com/cEBZhvB.jpg)
 
 4. Strip the trailing zero <br>
