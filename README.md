@@ -167,7 +167,7 @@ For this PA, public testers can be found on Gradescope and there will be testers
 Here's an example of how you can test your code.
 
 ```java     
-public staic void main(String[] args) {
+public static void main(String[] args) {
     System.out.print(Calculator.add("4.02", "0.0050")); // should print 4.025
     System.out.print(Calculator.add("4.02", ".005"));   // should print 4.025
     System.out.print(Calculator.add("100", "200"));     // should print 300.0
