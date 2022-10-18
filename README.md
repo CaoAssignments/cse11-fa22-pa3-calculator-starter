@@ -59,7 +59,7 @@ Invalid Examples:
 >
 > Do not import or use any libraries such as `BigDecimal` or `Scanner`. You should not have any `import` statements for this PA.
 >
-> Additionally, do not parse the Strings into ints, doubles or floats using `Integer.praseInt`, `Integer.valueOf`, `Double.parseDouble`, `Double.valueOf`, `Float.parseFloat`, `Float.valueOf` etc.
+> Additionally, do not parse the Strings into ints, doubles or floats using `Integer.praseInt`, `Integer.valueOf`, `Double.parseDouble`, `Double.valueOf`, `Float.parseFloat`, `Float.valueOf` etc. This includes using `new Integer(), new Double(), new Float()` since this is essentially parsing the String into ints, doubles and floats.
 >
 > Doing so will result in a 0 for this assignment.
 
