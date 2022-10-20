@@ -97,7 +97,7 @@ Your goal is to implement a single digit adder that adds 2 digits (`firstDigit` 
 
 - `public static char addDigits(char firstDigit, char secondDigit, boolean carryIn)`
     - Return the rightmost digit of the sum `firstDigit`, `secondDigit`, and `carryIn`.
-    - If the sum has two digits (i.e. '9' + '4' = '13'), return the rightmost digit `'3'`.
+    - If the sum has two digits and `carryIn` is false (i.e. '9' + '4' = '13'), return the rightmost digit `'3'`.
 - `public static boolean carryOut(char firstDigit, char secondDigit, boolean carryIn)`
     - Return `true` if adding `firstDigit`, `secondDigit`, and `carryIn` results in a carry. Otherwise, return `false`.
 
